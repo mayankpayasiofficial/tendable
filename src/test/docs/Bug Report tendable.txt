@@ -1,0 +1,42 @@
+Bug Report
+
+Project Name: tendable
+Test Scenario: Test the "Contact Us" form with missing "Message" field
+Test Environment:
+i. Browser: Firefox
+ii. Version: 118
+iii. Operating System: Windows 11
+
+Bug Details:
+Summary:
+The error message is not displayed when the "Message" field is empty.
+
+Description:
+During the execution of the test scenario to test the "Contact Us" form with a missing "Message" field, it was expected that an error message would be displayed upon form submission. However, no error message was observed.
+
+Steps to Reproduce:
+
+i. Launch the Tendable website (https://www.tendable.com).
+ii. Navigate to the "Contact Us" section.
+iii. Choose "Marketing" under the appropriate label.
+iv. Complete the form, excluding the "Message" field.
+v. Submit the form.
+Actual Results:
+No error message is displayed, and the form submission appears to be successful.
+
+Expected Results:
+An error message should be displayed indicating that the "Message" field is required. The form submission should not proceed.
+
+
+
+Additional Information:
+Severity/Priority: Severity: High
+Priority: Medium
+Status: New
+
+Reproducibility:
+The issue is consistently reproducible.
+
+Date Reported:
+01.10.2023
+
