@@ -10,6 +10,9 @@ Before running the tests, ensure you have the following installed:
 - Java Development Kit (JDK)
 - Maven
 - WebDriver (e.g.,GeckoDriver) compatible with your browser version
+- Cucumber BDD (behavior driven development)
+- JUnit
+- git
 
 ## Project Structure
 The project is organized as follows:
